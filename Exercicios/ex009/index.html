@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Tipos De Listas</h1>
+    <h2>Lista Ordenada</h2>
+    <p>É o tipo de lista onde a ordem dos itens é importante <strong>(Tag OL)</strong>, exemplo:</p>
+    <ol type="I" start="0">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Se arrumar</li>
+        <li>Ir para escola</li>
+        <li>Almoçar...</li>
+    </ol>
+    <p><strong><strong>(Tag TYPE)</strong></strong> Escolhe o tipo de síbolo ou número que os elementos vão começar, <br> no caso da <strong>Lista Ordenada</strong> temos as tags <strong><q>A, 1, I, a, i</q></strong></p>
+    <p><strong>(Tag START)</strong> Delimita o número em que a lista começa.</p>
+
+    <h2>Lista Não Ordenada</h2>
+    <p><strong>(Tag UL)</strong> Tipo de lista onde a ordem não importa, exemplo:</p>
+    <ul type="square">
+        <li>Feijão</li>
+        <li>Arroz</li>
+        <li>Farinha</li>
+        <li>Açúcar</li>
+        <li>Café...</li>
+    </ul>
+    <p>(Tag TYPE) Tipos de tags para a lista não ordenada <strong><q>Circle, Square, Disc</q></strong></p>
+    
+    <h2>Lista Mista</h2>
+    <p>A lista mista é uma lista que pode-se misturar uma lista OL dentro de uma lista Ul <br>e vice-versa, exemplo:</p>
+    <ul>
+        <li>Nintendo Wii</li>
+        <ul type="Circle">
+            <li>Mario</li>
+            <ol type="a">
+                <li>Super Mario Bros</li>
+                <li>Paper Mario</li>
+                <li>Mario Kart</li>
+            </ol>
+            <li>Wii Sports Resort</li>
+            <li>Need For Speed</li>
+            <ol type="a">
+                <li>Need For Speed Underground</li>
+                <li>Need For Speed Most Wanted</li>
+            </ol>
+            <li>Kirby</li>
+            <li>Call of Duty</li>
+            <ol type="a">
+                <li>Call of Duty Black Ops II</li>
+                <li>Call of Duty Black Ops</li>
+            </ol>
+        </ul>
+        <li>PlayStation 2</li>
+        <ul type="circle">
+            <li>Need For Speed</li>
+            <li>Black</li>
+            <li>Crash</li>
+            <ol type="a">
+                <li>Crash Bandicot</li>
+                <li>Crash Kart</li>
+            </ol>
+            <li>Fifa</li>
+            <ol type="a">
+                <li>Fifa 2016</li>
+                <li>BOMBA PATCH</li>
+            </ol>
+            <li>GTA</li>
+            <ol type="a">
+                <li>GTA San Andreas</li>
+            </ol>
+            <li>Guitar Hero</li>
+            <ol type="a">
+                <li>Guitar Hero II</li>
+            </ol>
+        </ul>
+    </ul>
+
+    <h2>Lista de Definições</h2>
+    <p><strong>(Tag DL)</strong> A lista de definição como o nome já diz ela define um termo, como um dicionário, exemplo:</p>
+    <dl>
+        <dt>HTML <strong>(Tag DT)</strong></dt>
+        <dd>Linguagem de marcação para o desenvolvimento de conteúdo de um site <strong>(Tag DD)</strong>
+        <dt>CSS <strong>(Tag DT)</strong></dt>
+        <dd>Linguagem de marcação para o desenvolvimento do design de um site <strong>(Tag DD)</strong>.</dd>
+        <dt>JavaScript <strong>(Tag DT)</strong></dt>
+        <dd>Linguagem de programação para a criação de interatividade em um site <strong>(Tag DD)</strong>.</dd>
+    </dl>
+    <p>Para lembrar melhor: <br> <strong>DL: Definition List <br> DT: Definition Term <br> DD: Definition Description</strong></p>
+</body>
+</html>

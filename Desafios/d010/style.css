@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+header > section > section > p {
+    color: lightgrey;
+    text-align: center;
+}
+h1#principal {
+    margin: 0%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+header > section > nav {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.775), rgb(58, 193, 58));
+    margin: 0%;
+    height: 150px;
+}
+button {
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+}
+button:hover {
+    background-color: rgba(172, 255, 47, 0.311);
+    color: rgb(88, 88, 88);
+    cursor: pointer;
+}
+body {
+    background-color: lightgreen;
+    margin: 0%;
+}
+main {
+    text-align: justify;
+}
+main > section > ul > h2 {
+    background-color: rgb(75, 176, 75);
+}
+main > section > iframe {
+    height: auto;
+    width: auto;
+}
+#caixa {
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+#caixa > h4 {
+    background-color: #2FA866;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+main {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.371);
+    padding: 20px;
+    text-align:justify
+}
+footer > p {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+}
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    height: 40px;
+}

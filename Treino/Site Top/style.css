@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    margin: 0%;
+}
+header {
+    background-image: url(imagens/amareloferrugem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header > section > nav > button {
+    height: 30px;
+    width: 70px;
+    margin: 1px 100px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+}
+header > section > nav > button > a {
+    color: greenyellow;
+    text-decoration: none;
+}
